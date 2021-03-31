@@ -45,9 +45,10 @@ class NameActivity : AppCompatActivity() {
                     finish()
                 }
             }
-            binding.btnCancel.setOnClickListener {
-                finish()
-            }
+
+        }
+        binding.btnCancel.setOnClickListener {
+            finish()
         }
     }
 }
