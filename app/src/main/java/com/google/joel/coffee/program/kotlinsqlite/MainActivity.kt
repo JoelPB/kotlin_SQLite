@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     // Iniciar a RecyclerView
-    lateinit var listaAdapter: ListaAdapter //= null
-    var linearLayoutManager: LinearLayoutManager? = null
+    lateinit var listaAdapter: ListaAdapter
+    lateinit var linearLayoutManager: LinearLayoutManager
 
     // SQLite
     var pessoaList = ArrayList<Pessoa>()

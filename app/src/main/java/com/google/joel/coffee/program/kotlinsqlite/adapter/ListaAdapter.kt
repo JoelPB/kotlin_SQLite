@@ -20,7 +20,7 @@ class ListaAdapter(nameList: List<Pessoa>, internal var context: Context,
         RecyclerView.Adapter<ListaAdapter.ViewHolder>() {
 
 
-    internal var nameList: List<Pessoa> = ArrayList<Pessoa>()
+    internal var nameList: List<Pessoa> = ArrayList()
     init {
         this.nameList = nameList
     }
