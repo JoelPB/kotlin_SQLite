@@ -17,24 +17,72 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Digite o nome: "
+            android:text="@string/digite_o_nome"
             android:textSize="18sp"
             android:gravity="center"/>
         <EditText
             android:id="@+id/edtNome"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/nome"
+            android:inputType='textPersonName' />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_o_sobrenome"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtSobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/last_name"
+            android:hint="@string/sobrenome"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_o_enderco"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Address"
+            android:hint="@string/seu_endere_o"
+            android:inputType="textPostalAddress"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefone"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Phone"
+            android:hint="@string/_xx_xxxxx_xxxx"
+            android:inputType="numberDecimal"/>
         <Button
             android:id="@+id/btnInsertNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Inserir"
+            android:text="@string/inserir"
             android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/dados"/>
         <Button
             android:id="@+id/btnCancel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancelar"/>
+            android:text="@string/cancelar"/>
 
     </LinearLayout>
 

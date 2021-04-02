@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">kotlin SQLite</string>
+    <string name="voltar">Voltar</string>
+    <string name="dados">Dados</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="inserir">Inserir</string>
+    <string name="digite_o_nome">Digite o nome:</string>
+    <string name="digite_o_sobrenome">Digite o sobrenome:</string>
+    <string name="digite_o_enderco">Digite o endereço:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="nome">Nome</string>
+    <string name="last_name">Last name</string>
+    <string name="_xx_xxxxx_xxxx">(xx) xxxxx-xxxx</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="seu_endere_o">Seu endereço</string>
 </resources>
